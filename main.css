@@ -1,0 +1,9 @@
+body{ /* Body é um seletor de regra, usado para selecionar a quais elementos os estilos se aplicam, no caso, a todos os elementos em body */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{ /* Img é um seletor de regra, usado para selecionar a quais elementos os estilos se aplicam, no caso, a todos os elementos em img */
+    position:absolute; /*A propriedade "position" com o valor "absolute" permite posicionar a imagem de forma absoluta, em relação ao seu elemento pai mais próximo que tenha uma posição definida (ou em relação à janela do navegador, se nenhum elemento pai tiver posição definida). */
+    top: 10px; /*Distância entre o topo da página (ou do elemento pai) e a imagem */
+    right: 30px; /* distância entre o lado direito da página (ou do elemento pai) e a imagem.*/
+}
